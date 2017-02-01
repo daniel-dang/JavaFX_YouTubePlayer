@@ -1,0 +1,34 @@
+#root{
+    -fx-background-image: url("/images/triangles.png");
+    -fx-pref-height: 600px;
+    -fx-pref-width: 900px;
+    -fx-max-height: 600px;
+    -fx-max-width: 900px;
+}
+#youtubeBtn{
+    -fx-background-color: #432eff;
+}
+#textField{
+    -fx-background-radius: 50px;
+    -fx-background-color: #fff9e6;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-animated: true;
+    -fx-border-style: hidden;
+}
+#centerScrollPane > .viewport{
+    -fx-background-color: transparent;
+}
+#centerScrollPane{
+    -fx-min-height: 100%;
+    -fx-min-width: 100%;
+    -fx-background-color: transparent;
+}
+#videoBox{
+    -fx-min-height: inherit;
+    -fx-min-width: inherit;
+    -fx-background-color: transparent;
+}
+#playlist{
+    -fx-background-color: #5c6b3e;
+}
